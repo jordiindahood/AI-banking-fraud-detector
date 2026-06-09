@@ -110,9 +110,6 @@ AI-banking-fraud-detector/
 │   ├── 1-EDA+FE.ipynb
 │   ├── 2-model_selection.ipynb
 │   └── 3-train+tune.ipynb
-├── notes/
-│   ├── articles.txt                # Reference links
-│   └── Definitions.txt             # ML concept definitions
 ├── src/
 │   ├── __init__.py
 │   ├── api.py                      # FastAPI prediction API

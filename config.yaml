@@ -1,0 +1,38 @@
+data:
+  raw_path: "data/raw/creditcard.csv"
+  preprocessed_dir: "data/preprocessed"
+  target_col: "Class"
+
+preprocessing:
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+  scaling_method: "robust" # "robust" or "standard"
+
+models:
+  dir: "models"
+  active_model_name: "xgboost"
+  
+# Hyperparameters for training
+xgboost:
+  n_estimators: 100
+  max_depth: 4
+  learning_rate: 0.1
+  random_state: 42
+
+logistic_regression:
+  C: 0.1
+  max_iter: 1000
+  random_state: 42
+
+decision_tree:
+  max_depth: 5
+  random_state: 42
+
+knn:
+  n_neighbors: 5
+
+svc:
+  C: 1.0
+  probability: true
+  random_state: 42

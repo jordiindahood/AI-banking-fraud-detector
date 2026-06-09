@@ -1,0 +1,18 @@
+.env
+.venv
+__pycache__/
+*.pyc
+
+# Ignore processed data splits
+data/preprocessed/*.csv
+
+# Ignore saved model weights
+models/*.json
+models/*.joblib
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+notes/
+data/
